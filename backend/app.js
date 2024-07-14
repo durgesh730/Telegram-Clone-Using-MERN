@@ -31,6 +31,9 @@ app.use("/api/profile", profileRouter);
 app.use("/api/chatRoom", chatRoomRouter);
 app.use("/api/upload", uploadRouter);
 
+app.get("/", (req, res) => res.status(200).send("Hello world"))
+
+
 // Error handle middleware
 app.use(errorController);
 
