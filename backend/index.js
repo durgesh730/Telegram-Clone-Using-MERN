@@ -1,2 +1,2 @@
-const server = require("./server");
-const socket = require("./socket");
+require("./server");
+require("./socket");

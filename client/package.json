@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "proxy": "http://localhost:4000",
+  "proxy": "https://telegram-clone-using-mern-a8t2.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
